@@ -49,6 +49,6 @@ class Product(models.Model):
 
     x_studio_product_size = fields.Char(string="Product Size")
     x_studio_vidoe_link = fields.Html(string="Video Link")
-    x_studio_product_label = fields.Char(string="Product Label")
+    x_studio_product_label = fields.Char(string="Product Label", translate=True)
 
         
